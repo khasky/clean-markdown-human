@@ -189,22 +189,6 @@ TODOs
 - <!-- TODO: source needed --> added to the "millions per day in electricity" claim.
 ```
 
-## Customization
-
-Tune the skill for a specific team or project by editing `SKILL.md`. Useful additions:
-
-- project-specific artifact patterns (markers left by a particular tool);
-- a house-style glossary of preferred terms;
-- sections that must always be preserved;
-- domain claims that always require a citation;
-- headings or files to leave untouched.
-
-## Security and trust notes
-
-Review `SKILL.md` before installing any third-party skill. Skills are instructions for an agent that can read, edit, and run commands in your environment depending on your Claude Code permissions.
-
-This skill is intentionally a text-instruction workflow. It does not request pre-approved shell commands in its frontmatter. Keep it that way unless you have a specific reason and understand the trust implications.
-
 ## License
 
 MIT
